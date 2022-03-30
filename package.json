@@ -1,12 +1,15 @@
 {
   "name": "@xxskyy/mercurius-exec-service-schema",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Make executable schema that suppports federation mode in Mercurius",
   "author": {
     "name": "xxSkyy",
     "url": "https://github.com/xxSkyy"
   },
-  "repository": "git@github.com:xxSkyy/mercurius-exec-service-schema.git",
+  "repository": {
+    "url": "https://github.com/xxSkyy/mercurius-exec-service-schema"
+  },
+  "homepage": "https://github.com/xxSkyy/mercurius-exec-service-schema",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
