@@ -1,0 +1,48 @@
+{
+  "name": "@xxskyy/mercurius-exec-service-schema",
+  "version": "2.0.0",
+  "description": "Make executable schema that suppports federation mode in Mercurius",
+  "author": {
+    "name": "xxSkyy",
+    "url": "https://github.com/xxSkyy"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test:coverage": "nyc yarn test",
+    "test": "NODE_ENV=test mocha -r ts-node/register src/**/*.spec.ts",
+    "test:dev": "mocha -r ts-node/register src/**/*.spec.ts --watch-extensions ts  --watch --watch-files src 'src/**/**.ts'"
+  },
+  "keywords": [
+    "mercurius",
+    "federation",
+    "gateway",
+    "executable",
+    "schema",
+    "fastify",
+    "graphql"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.23",
+    "@types/redis": "^4.0.11",
+    "@types/sinon": "^10.0.11",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "nyc": "^15.1.0",
+    "sinon": "^13.0.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^7.3.7",
+    "@graphql-tools/load": "^7.5.6",
+    "graphql": "^16.3.0"
+  }
+}
