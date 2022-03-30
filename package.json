@@ -1,6 +1,6 @@
 {
   "name": "@xxskyy/mercurius-exec-service-schema",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Make executable schema that suppports federation mode in Mercurius",
   "author": {
     "name": "xxSkyy",
