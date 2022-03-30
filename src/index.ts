@@ -1,6 +1,5 @@
 import { printSchema } from "graphql"
-/// @ts-ignore
-import { makeExecutableSchema } from "@graphql-tools/graphql-file-loader"
+import { makeExecutableSchema } from "@graphql-tools/schema"
 import { loadSchemaFile } from "./loadSchema"
 import {
   processSchema,
