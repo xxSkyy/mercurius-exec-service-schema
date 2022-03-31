@@ -1,4 +1,4 @@
-# Generate executable query with middleware supports that works with Mercurius federation mode.
+# Generate executable query that works with Mercurius federation mode.
 
 It supports:
 
