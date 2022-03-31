@@ -1,10 +1,10 @@
-# Generate executable query that works with Mercurius federation mode.
+# Generate executable query that works with Mercurius gateway.
 
 It supports:
 
 - Loading schema from string
 - Loading schema from file with imports (IE `#import User from types/user.gql`) support
-- Loaders
+- Loaders for n + 1 queries
 
 It doesn't support:
 
