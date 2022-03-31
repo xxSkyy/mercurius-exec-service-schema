@@ -4,10 +4,13 @@ It supports:
 
 - Loading schema from string
 - Loading schema from file with imports (IE `#import User from types/user.gql`) support
+- Loaders
 
 It doesn't support:
 
 - Federation SDL schemas (no ETA)
+
+Check example folder in Github repo for working example of Gateway - Service with executable schema and loader.
 
 ---
 
@@ -21,7 +24,7 @@ import { makeGatewayExecutableSchema } from "@xxskyy/mercurius-exec-service-sche
 const resolvers = {
  Query: {
    version: () => "1.0.0"
- } 
+ }
 }
 
 const schema = `
