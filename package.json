@@ -1,6 +1,6 @@
 {
   "name": "@xxskyy/mercurius-exec-service-schema",
-  "version": "2.0.8",
+  "version": "3.0.1",
   "description": "Make executable schema that suppports federation mode in Mercurius",
   "author": {
     "name": "xxSkyy",
@@ -49,10 +49,12 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
+    "@apollo/subgraph": "^0.4.0",
     "@graphql-tools/graphql-file-loader": "^7.3.7",
     "@graphql-tools/load": "^7.5.6"
   },
   "peerDependencies": {
-    "graphql": "^16.3.0"
+    "graphql": "^16.3.0",
+    "graphql-tag": "^2.12.6"
   }
 }
